@@ -58,23 +58,52 @@
 }
 .exer07{
     align-items: center;
-    justify-content: end;
+    justify-content: flex-end;
+}
+.exer07 div:nth-child(1){
+    margin-right: auto;
 }
 .exer08{
    flex-direction:column ;
    align-items: center ;
    
 }
+
 .exer09{
     flex-direction: column;
     align-items: flex-end;
 }
+.exer09 div:nth-child(3){
+    align-self:stretch;
+    background-color:bisque;
+}
+
  .exer10{
      align-items:center;
  }
 
+.exer11{
+    align-items: center;
+    flex-wrap: wrap;
+}
+.exer12{
 
-
+    align-items: center;
+    flex-wrap: wrap;
+}
+.exer12 div:nth-child(odd){
+    background-color: bisque;
+    flex-grow: 1;
+}
+.exer13{
+align-items: center;
+flex-wrap: wrap;
+}
+.exer13 div:nth-child(odd){
+    background-color: bisque;
+    width: 50%;
+    flex-grow: 1;
+}
   
 
 
